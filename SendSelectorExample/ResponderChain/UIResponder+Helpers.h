@@ -20,4 +20,5 @@
  - (void)action:(id)sender forEvent:(UIEvent *)event
  */
 - (BOOL)aapl_sendAction:(SEL)action;
+-(BOOL)aapl_sendAction:(SEL)action withObject:(id)object;
 @end
